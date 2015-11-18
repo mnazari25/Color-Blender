@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF0AE6A11A8D67BA00184D6A /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0AE6A01A8D67BA00184D6A /* ColorExtensions.swift */; };
+		AF48D91F1A842499008C6C79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48D91E1A842499008C6C79 /* AppDelegate.swift */; };
+		AF48D9211A842499008C6C79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48D9201A842499008C6C79 /* ViewController.swift */; };
+		AF48D9241A842499008C6C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF48D9221A842499008C6C79 /* Main.storyboard */; };
+		AF48D9261A842499008C6C79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF48D9251A842499008C6C79 /* Images.xcassets */; };
+		AF48D9291A842499008C6C79 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF48D9271A842499008C6C79 /* LaunchScreen.xib */; };
+		AF48D9351A842499008C6C79 /* Swift___Color_Blender_using_adaptive_layoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48D9341A842499008C6C79 /* Swift___Color_Blender_using_adaptive_layoutTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF48D92F1A842499008C6C79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF48D9111A842499008C6C79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF48D9181A842499008C6C79;
+			remoteInfo = "Swift - Color Blender using adaptive layout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF0AE6A01A8D67BA00184D6A /* ColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		AF48D9191A842499008C6C79 /* Swift - Color Blender using adaptive layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift - Color Blender using adaptive layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF48D91D1A842499008C6C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF48D91E1A842499008C6C79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF48D9201A842499008C6C79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF48D9231A842499008C6C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF48D9251A842499008C6C79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AF48D9281A842499008C6C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AF48D92E1A842499008C6C79 /* Swift - Color Blender using adaptive layoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift - Color Blender using adaptive layoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF48D9331A842499008C6C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF48D9341A842499008C6C79 /* Swift___Color_Blender_using_adaptive_layoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift___Color_Blender_using_adaptive_layoutTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF48D9161A842499008C6C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF48D92B1A842499008C6C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF48D9101A842499008C6C79 = {
+			isa = PBXGroup;
+			children = (
+				AF48D91B1A842499008C6C79 /* Swift - Color Blender using adaptive layout */,
+				AF48D9311A842499008C6C79 /* Swift - Color Blender using adaptive layoutTests */,
+				AF48D91A1A842499008C6C79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF48D91A1A842499008C6C79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF48D9191A842499008C6C79 /* Swift - Color Blender using adaptive layout.app */,
+				AF48D92E1A842499008C6C79 /* Swift - Color Blender using adaptive layoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF48D91B1A842499008C6C79 /* Swift - Color Blender using adaptive layout */ = {
+			isa = PBXGroup;
+			children = (
+				AF48D91E1A842499008C6C79 /* AppDelegate.swift */,
+				AF48D9201A842499008C6C79 /* ViewController.swift */,
+				AF48D9221A842499008C6C79 /* Main.storyboard */,
+				AF0AE6A01A8D67BA00184D6A /* ColorExtensions.swift */,
+				AF48D9251A842499008C6C79 /* Images.xcassets */,
+				AF48D9271A842499008C6C79 /* LaunchScreen.xib */,
+				AF48D91C1A842499008C6C79 /* Supporting Files */,
+			);
+			path = "Swift - Color Blender using adaptive layout";
+			sourceTree = "<group>";
+		};
+		AF48D91C1A842499008C6C79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF48D91D1A842499008C6C79 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF48D9311A842499008C6C79 /* Swift - Color Blender using adaptive layoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF48D9341A842499008C6C79 /* Swift___Color_Blender_using_adaptive_layoutTests.swift */,
+				AF48D9321A842499008C6C79 /* Supporting Files */,
+			);
+			path = "Swift - Color Blender using adaptive layoutTests";
+			sourceTree = "<group>";
+		};
+		AF48D9321A842499008C6C79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF48D9331A842499008C6C79 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF48D9181A842499008C6C79 /* Swift - Color Blender using adaptive layout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF48D9381A842499008C6C79 /* Build configuration list for PBXNativeTarget "Swift - Color Blender using adaptive layout" */;
+			buildPhases = (
+				AF48D9151A842499008C6C79 /* Sources */,
+				AF48D9161A842499008C6C79 /* Frameworks */,
+				AF48D9171A842499008C6C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift - Color Blender using adaptive layout";
+			productName = "Swift - Color Blender using adaptive layout";
+			productReference = AF48D9191A842499008C6C79 /* Swift - Color Blender using adaptive layout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF48D92D1A842499008C6C79 /* Swift - Color Blender using adaptive layoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF48D93B1A842499008C6C79 /* Build configuration list for PBXNativeTarget "Swift - Color Blender using adaptive layoutTests" */;
+			buildPhases = (
+				AF48D92A1A842499008C6C79 /* Sources */,
+				AF48D92B1A842499008C6C79 /* Frameworks */,
+				AF48D92C1A842499008C6C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF48D9301A842499008C6C79 /* PBXTargetDependency */,
+			);
+			name = "Swift - Color Blender using adaptive layoutTests";
+			productName = "Swift - Color Blender using adaptive layoutTests";
+			productReference = AF48D92E1A842499008C6C79 /* Swift - Color Blender using adaptive layoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF48D9111A842499008C6C79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Bug Catcher Studios";
+				TargetAttributes = {
+					AF48D9181A842499008C6C79 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AF48D92D1A842499008C6C79 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AF48D9181A842499008C6C79;
+					};
+				};
+			};
+			buildConfigurationList = AF48D9141A842499008C6C79 /* Build configuration list for PBXProject "Swift - Color Blender using adaptive layout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF48D9101A842499008C6C79;
+			productRefGroup = AF48D91A1A842499008C6C79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF48D9181A842499008C6C79 /* Swift - Color Blender using adaptive layout */,
+				AF48D92D1A842499008C6C79 /* Swift - Color Blender using adaptive layoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF48D9171A842499008C6C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF48D9241A842499008C6C79 /* Main.storyboard in Resources */,
+				AF48D9291A842499008C6C79 /* LaunchScreen.xib in Resources */,
+				AF48D9261A842499008C6C79 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF48D92C1A842499008C6C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF48D9151A842499008C6C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF48D9211A842499008C6C79 /* ViewController.swift in Sources */,
+				AF48D91F1A842499008C6C79 /* AppDelegate.swift in Sources */,
+				AF0AE6A11A8D67BA00184D6A /* ColorExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF48D92A1A842499008C6C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF48D9351A842499008C6C79 /* Swift___Color_Blender_using_adaptive_layoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF48D9301A842499008C6C79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF48D9181A842499008C6C79 /* Swift - Color Blender using adaptive layout */;
+			targetProxy = AF48D92F1A842499008C6C79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF48D9221A842499008C6C79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF48D9231A842499008C6C79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF48D9271A842499008C6C79 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF48D9281A842499008C6C79 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF48D9361A842499008C6C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF48D9371A842499008C6C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF48D9391A842499008C6C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift - Color Blender using adaptive layout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF48D93A1A842499008C6C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift - Color Blender using adaptive layout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF48D93C1A842499008C6C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift - Color Blender using adaptive layoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift - Color Blender using adaptive layout.app/Swift - Color Blender using adaptive layout";
+			};
+			name = Debug;
+		};
+		AF48D93D1A842499008C6C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift - Color Blender using adaptive layoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift - Color Blender using adaptive layout.app/Swift - Color Blender using adaptive layout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF48D9141A842499008C6C79 /* Build configuration list for PBXProject "Swift - Color Blender using adaptive layout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF48D9361A842499008C6C79 /* Debug */,
+				AF48D9371A842499008C6C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF48D9381A842499008C6C79 /* Build configuration list for PBXNativeTarget "Swift - Color Blender using adaptive layout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF48D9391A842499008C6C79 /* Debug */,
+				AF48D93A1A842499008C6C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF48D93B1A842499008C6C79 /* Build configuration list for PBXNativeTarget "Swift - Color Blender using adaptive layoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF48D93C1A842499008C6C79 /* Debug */,
+				AF48D93D1A842499008C6C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF48D9111A842499008C6C79 /* Project object */;
+}
